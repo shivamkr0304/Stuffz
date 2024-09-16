@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="Final stuffz-2-copy.png" type="image/icon type">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Stuffz-Propinquity sustained</title>
+</head>
+<body>
+    <div class="header">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="menu-btn"></i>
+            <i class="fas fa-times" id="cancel-btn"></i>
+        </label>
+        <div class="sidebar">
+            <header>Menu</header>
+            <ul>
+                <li><a href="#"><i class="fas fa-sign-in-alt"></i>Login/Register</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>My Account</a></li>
+                <li><a href="#"><i class="fas fa-shopping-bag"></i>My Orders</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i>About us</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+            </ul>
+        </div>
+        <div class="menu-logo">
+            <span>
+                <a href="home.html"><img id="stuffz" src="Final stuffz-2-copy.png"></a>
+            </span>
+        </div>
+        <div class="search">
+            <div id="select">
+                <p id="selectext">All categories</p>
+                <img src="white-arrow-down-png-4.png">
+                <ul id="list">
+                    <li class="options">All categories</li>
+                    <li class="options">Electronics</li>
+                    <li class="options">Furniture</li>
+                    <li class="options">Gadgets</li>
+                    <li class="options">Household</li>
+                </ul>
+            </div>
+            <form action="https://www.google.com/search" method="get" class="search-bar">
+                <input type="text" id="sbox" placeholder="Search in All categories">
+                <button type="submit" id="submit"><img width="25px" src="icons8-search-500.png"></button>
+            </form>
+        </div>
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
+                <img src="user-1.webp">
+            </div>
+            <div class="menu">
+                <h3>Shivam Kumar<br><span>shivam_2005044@gita.edu.in</span></h3>
+                <ul>
+                    <li><img src="user.png"><a href="#">My Account</a></li>
+                    <li><img src="edit.png"><a href="#">Edit Profile</a></li>
+                    <li><img src="envelope.png"><a href="#">Inbox</a></li>
+                    <li><img src="settings.png"><a href="#">Settings</a></li>
+                    <li><img src="question.png"><a href="#">Help</a></li>
+                    <li><img src="log-out.png"><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <section>
+                <h1><span class="change-content"></span>ANYTHING</h1>
+                <p>Buying/Selling used things inside your campus just got easy</p>
+                <a href="#" id="login-btn">Login</a>
+                <a href="#" id="register-btn">Register</a>
+            </section>
+        </main>
+    </div>
+    <!-- featured products -->
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-1">
+                    <img src="products/mouse.jpg" style="border: 3px solid black" >
+                    <h4>Logitech mouse</h4>
+                    <p>Rs 250</p>
+                </div>
+                <div class="col-2">
+                    <img src="products/fan.jpg">
+                    <h4>Table fan</h4>
+                    <p>Rs 500</p>
+                </div>
+                <div class="col-3">
+                    <img src="products/book.jpg">
+                    <h4>Engineering Books</h4>
+                    <p>Rs 850</p>
+                </div>
+                <div class="col-4">
+                    <img src="products/calculator.jpg" style="border: 3px solid black">
+                    <h4>Scientific calculator</h4>
+                    <p>Rs 460</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">All Products</h2>
+        <div class="row">
+            <div class="col-5">
+                <img src="products/iron.jpg">
+                <h4>Iron</h4>
+                <p>Rs 400</p>
+            </div>
+            <div class="col-6">
+                <img src="products/penstand.jpg">
+                <h4>Clock cum pen stand</h4>
+                <p>Rs 140</p>
+            </div>
+            <div class="col-7">
+                <img src="products/guitar.jpg">
+                <h4>Intern Guitar</h4>
+                <p>Rs 1900</p>
+            </div>
+            <div class="col-8">
+                <img src="products/laptop.jpg">
+                <h4>Dell laptop</h4>
+                <p>Rs 26000</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9">
+                <img src="products/keyboard.jpg">
+                <h4>hp keyboard</h4>
+                <p>Rs 350</p>
+            </div>
+            <div class="col-10">
+                <img src="products/kettle.jpg">
+                <h4>Kettle</h4>
+                <p>Rs 400</p>
+            </div>
+            <div class="col-11">
+                <img src="products/trolley bag.jpg">
+                <h4>Trolley Bag</h4>
+                <p>Rs 2500</p>
+            </div>
+            <div class="col-12">
+                <img src="products/book.jpg">
+                <h4>Book</h4>
+                <p>Rs 190</p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our Web-app</h3>
+                    <p>Download web app for android and ios phones.</p>
+                    <div class="app-logo">
+                        <a href="#"><img src="kisspng-responsive-web-design-web-development-computer-ico-website-design-5adc80c13185f2.0128137015244003212029.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="Final stuffz-1 - Copy.png" style="height:100px;width:210px;">
+                    <p>Our goal is to develop a platform for buying and selling used things at a reasonable price.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href="#"><li>About us</li></a>
+                        <a href="#"><li>Contact us</li></a>
+                        <a href="#"><li>FAQs</li></a>
+                        <a href="#"><li>My Account</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <a href="#"><li>Facebook</li></a>
+                        <a href="#"><li>Twitter</li></a>
+                        <a href="#"><li>Instagram</li></a>
+                        <a href="#"><li>YouTube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Stuffz</p>
+        </div>
+    </div>
+    <script>
+        let select=document.getElementById("select")
+        let list=document.getElementById("list") 
+        let selectext=document.getElementById("selectext") 
+        let options=document.getElementsByClassName("options") 
+        let sbox=document.getElementById("sbox") 
+        select.onclick=function(){
+            list.classList.toggle("open");
+        }
+        for(option of options){
+            option.onclick=function(){
+                selectext.innerHTML=this.innerHTML;
+                sbox.placeholder="Search in "+selectext.innerHTML;
+            }
+        }
+        function menuToggle(){
+        const toggleMenu=document.querySelector('.menu');
+        toggleMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
